@@ -1,11 +1,11 @@
 {
   "expo": {
     "divblox": {
-      "serverBaseUrl": "[SERVER_URL]",
+      "serverBaseUrl": "{SERVER_URL}",
       "isDivbloxWebApp": true
     },
-    "name": "[NAME]",
-    "slug": "[NAME]",
+    "name": "{NAME}",
+    "slug": "{NAME}",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/dx_icon_1024x1024.jpg",
@@ -20,7 +20,7 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "[BUNDLE_ID]"
+      "bundleIdentifier": "{BUNDLE_ID}"
     },
     "android": {
       "adaptiveIcon": {
