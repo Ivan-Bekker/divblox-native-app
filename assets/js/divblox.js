@@ -8,9 +8,8 @@ import * as Notifications from "expo-notifications";
 import * as Device from "expo-device";
 import Constants from "expo-constants";
 
-const divbloxConfig = appJson.expo.divblox;
 export const divblox = {
-    baseUrl: divbloxConfig.serverBaseUrl,
+    baseUrl: appJson.expo.serverBaseUrl,
     dxAuthenticationToken: null,
 
     getLoadingUrl: function() {

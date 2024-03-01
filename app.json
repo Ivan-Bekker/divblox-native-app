@@ -1,9 +1,6 @@
 {
   "expo": {
-    "divblox": {
-      "serverBaseUrl": "{SERVER_URL}",
-      "isDivbloxWebApp": true
-    },
+    "serverBaseUrl": "{SERVER_URL}",
     "name": "{NAME}",
     "slug": "{NAME}",
     "version": "1.0.0",
