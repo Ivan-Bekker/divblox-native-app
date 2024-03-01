@@ -5,7 +5,7 @@
       "isDivbloxWebApp": true
     },
     "name": "[NAME]",
-    "slug": "[SLUG]",
+    "slug": "[NAME]",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/dx_icon_1024x1024.jpg",
@@ -20,7 +20,7 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.[SLUG].app"
+      "bundleIdentifier": "[BUNDLE_ID]"
     },
     "android": {
       "adaptiveIcon": {
