@@ -1,13 +1,17 @@
 {
   "expo": {
-    "name": "grip",
-    "slug": "grip",
+    "divblox": {
+      "serverBaseUrl": "[SERVER_URL]",
+      "isDivbloxWebApp": true
+    },
+    "name": "[NAME]",
+    "slug": "[SLUG]",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/images/dx_icon_1024x1024.jpg",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/images/divblox_logo_black.jpg",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -15,16 +19,17 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.[SLUG].app"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/images/bootsplash_logo.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/images/bootsplash_logo@1,5x.png"
     }
   }
 }
